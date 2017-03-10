@@ -1,6 +1,6 @@
 # vue-cli-webpack-analysis
 
-[vue-cli](https://github.com/vuejs/vue-cli) webpack配置的分析（注释）
+[vue-cli](https://github.com/vuejs/vue-cli) webpack配置的分析（注释）。这里有一篇简单的[文章](https://segmentfault.com/a/1190000008644830)。
 
 ## 说明
 
@@ -17,7 +17,7 @@
 
 从`package.json`可以看到开发和生产环境的入口。
 
-``` json
+```javascript
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
