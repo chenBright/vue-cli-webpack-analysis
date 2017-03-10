@@ -1,10 +1,10 @@
 # vue-cli-webpack-analysis
 
-vue-cli webpack配置的分析（注释）
+[vue-cli](https://github.com/vuejs/vue-cli) webpack配置的分析（注释）
 
 ## 说明
 
-此仓库为`vue-cli webpack`的配置分析，其实只是在源码中加上注释而已。
+此仓库为`vue-cli webpack`的配置分析，其实只是在源码中加上注释而已。大家查看详细分析，可以从后面提到的入口文件开始查看。
 
 分析不包括`check-versions.js`文件，因为`check-versions.js`是检测`npm`和`node`版本，不涉及`webpack`，所以就没有对`check-versions.js`进行分析。同时，也不包括测试部分的代码，该分析只是针对开发和生产环境的`webpack`配置进行分析。
 
