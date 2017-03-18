@@ -14,7 +14,7 @@ var path = require('path')
 // express框架
 var express = require('express')
 var webpack = require('webpack')
-// 测试环境，使用的配置与声场环境的配置一样
+// 测试环境，使用的配置与生产环境的配置一样
 // 非测试环境，即为开发环境，因为此文件只有测试环境和开发环境使用
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = process.env.NODE_ENV === 'testing'
