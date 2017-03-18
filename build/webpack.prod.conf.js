@@ -36,7 +36,7 @@ var webpackConfig = merge(baseWebpackConfig, {
       extract: true
     })
   },
-  // 是否卡其 sourceMap
+  // 是否开启 sourceMap
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     // 编译输出的静态资源根路径
